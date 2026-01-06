@@ -43,7 +43,6 @@ Design choices (concise)
 - Rate limiting: `time.sleep(1)` between pages to be polite to the server.
 - Headers: custom `User-Agent` header to reduce risk of being blocked by simple bot filters.
 
-
 Files
 - `mdcomputers.py`: main scraper script
 - `products.json`: output JSON file (created/updated by the script)
